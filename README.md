@@ -5,14 +5,14 @@ This repository contains all the C/C++ source code developed for the Bachelor's 
 
 The repository is structured according to the major sections in the thesis report (Sections 3.3 and 3.4). Each folder includes the implementation file and its corresponding testbench used for simulation, debugging, or synthesis using Vitis HLS.
 
-## 📁 Structure based on the memory of the project
+## 📁 Structure 
 
 ### 📌 Section 3.3 – Key Building Blocks of the Proposed Design
 
 #### 🔹 3.3.1.2 – Initial Error Injection Test (Failed)
 **Folder:** `Initial Error Injection Test (Failed)`  
 **Files:** `error_injection_failed.cpp`, `testbench.cpp`  
-➡️ First implementation attempt. Synthesizes and simulates, but does not yield valid output. Included for documentation of early development steps.
+➡️ First implementation attempt. Synthesizes and simulates, but does not yield valid output. 
 
 #### 🔹 3.3.1.3 – Verifying AXI-Stream Communication Using Random Number Generator  
 **Folder:** `Random Number Generation`  
@@ -27,7 +27,7 @@ The repository is structured according to the major sections in the thesis repor
 #### 🔹 3.3.2 – BRAM Management and Parallel Output Preparation  
 **Folder:** `BRAM Management`  
 **Files:** `bram.cpp`, `testbench.cpp`  
-➡️ Manages loading and reuse of probability vectors in BRAM to reduce latency.
+➡️ Manages loading of probability vectors in BRAM to reduce latency.
 
 ---
 
@@ -36,12 +36,12 @@ The repository is structured according to the major sections in the thesis repor
 #### 🔹 3.4.1 – First Attempt of Integrating BRAM-Based Error Injection with Parallel Output  
 **Folder:** `Final Implementation First Attempt`  
 **Files:** `noise_generation_v1.cpp`, `testbench.cpp`  
-➡️ First integrated version combining BRAM and random error generation with parallelism.
+➡️ First integrated version combining BRAM and random error generation with parallelism. This is not the functional one.
 
 #### 🔹 3.4.2 – Second Attempt of Integrating BRAM-Based Error Injection with Parallel Output  
 **Folder:** `Final Implementation Second Attempt`  
 **Files:** `noise_generation_v2.cpp`, `testbench.cpp`  
-➡️ Improved version with better pipelining, HLS optimizations and interface management.
+➡️ Improved version with better pipelining, but it is not yet the functional one.
 
 #### 🔹 3.4.3 – Final Working Implementation and Results  
 **Folder:** `Functional Final Implementation`  
