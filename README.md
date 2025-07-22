@@ -1,7 +1,7 @@
 # Quantum Noise Injection Accelerator – Code Repository
 
 This repository contains all the C/C++ source code developed for the Bachelor's Thesis:  
-**“FPGA-Based Quantum Noise Injection for STIM Error Correction Framework”**.
+**“Random Number Generation on FPGA for simulations integrated with STIM of Quantum Noise ”**.
 
 The repository is structured according to the major sections in the thesis report (Sections 3.3 and 3.4). Each folder includes the implementation file and its corresponding testbench used for simulation, debugging, or synthesis using Vitis HLS.
 
